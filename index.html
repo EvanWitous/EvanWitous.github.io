@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+   		<meta charset="utf-8">
+        <title>Home - Evan Witous</title>
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="evanwitous.css">
+        <script>
+            function menuToggle() {
+
+                var menu = document.getElementById("nav");
+
+                if(menu.className === "") {
+
+                    menu.className = "opened";
+
+                } else {
+
+                    menu.className = "";
+                }
+
+            }
+        </script>
+	</head>
+	<body>
+        <header>
+            <button type="button" id="settings" onclick="menuToggle()">&#9776;</button>
+            <h1>Home</h1>
+        </header>
+        <nav id="nav" class="">
+            <button type="button" id="home" onclick="window.location.href = 'HomeEvanWitous.html';">Home</button>
+            <br>
+            <button type="button" id="projects" onclick="window.location.href = 'ProjectsEvanWitous.html';">Projects</button>
+            <br>
+            <button type="button" id="about" onclick="window.location.href = 'ResumeEvanWitous.html';">Resume</button>
+        </nav>
+        <main>
+            <div>
+                <img src="EvanSmall.png" alt="EvanSmall">
+                <h2>About</h2>
+                <p>My name is Evan Witous, and I am a soon to be college graduate majoring in Computer Science. I have a passion for the visual side of development, as a result I have sent a lot of time doing Game Development.</p>
+            </div>
+            <div>
+                <h2>Hobbies</h2>
+                <p>I have several hobbies that keep me busy. Most of the time it's 2D animation, or Game Development, but I also enjoy playing the Bass (That means Bass Guitar too). I used to also do 3D modeling for fun because of my training in Robotics. However, I slowly fell away from it because I became too infatuated with 2D art.</p>
+            </div>
+            <div>
+                <h2>Technical Skills</h2>
+                <p>- C# -</p>
+                <p>- CSS -</p>
+                <p>- GML -</p>
+                <p>- HTML -</p>
+                <p>- Java -</p>
+                <p>- Unity -</p>
+                <p>- Python -</p>
+                <p>- ASP .Net -</p>
+                <p>- JavaScript -</p>
+                <p>- 2D Animation -</p>
+                <p>- GameMaker Studio 2 -</p>
+                <p>- OpenGl Shader Language -</p>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <p><strong>Email:</strong> evanwitous@gmail.com</p>
+                <p><strong>Phone Numer:</strong> (574) 485-9154</p>
+                <p><a href="https://www.linkedin.com/in/evan-witous-764246139/">LinkedIn</a></p>
+            </div>
+        </main>
+        <footer>
+            <p>Created by Evan Witous in 2019</p>
+        </footer>
+	</body>
+</html>
