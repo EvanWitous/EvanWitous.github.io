@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+   		<meta charset="utf-8">
+        <title>Resume - Evan Witous</title>
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="evanwitous.css">
+        <script>
+            function menuToggle() {
+
+                var menu = document.getElementById("nav");
+
+                if(menu.className === "") {
+
+                    menu.className = "opened";
+
+                } else {
+
+                    menu.className = "";
+                }
+
+            }
+        </script>
+	</head>
+	<body>
+        <header>
+            <button type="button" id="settings" onclick="menuToggle()">&#9776;</button>
+            <h1>Resume</h1>
+        </header>
+        <nav id="nav" class="">
+            <button type="button" id="home" onclick="window.location.href = 'HomeEvanWitous.html';">Home</button>
+            <br>
+            <button type="button" id="projects" onclick="window.location.href = 'ProjectsEvanWitous.html';">Projects</button>
+            <br>
+            <button type="button" id="about" onclick="window.location.href = 'ResumeEvanWitous.html';">Resume</button>
+        </nav>
+        <main>
+            <div>
+                <h2>Education</h2>
+                <p><strong>Ball State University in Muncie, 2020</strong> B.S. in Computer Science 3.56/4.00 GPA</p>
+                <p><strong>Penn High School in Mishawaka, 2016</strong> Honors diplompa and Technical Honors diploma 3.6/4.00 GPA</p>
+            </div>
+            <div>
+                <h2>Preface</h2>
+                <p>This section contains my work history that is relevant to the STEM field. I've had a few other jobs other than the ones listed, but those involved either working in a gross kitchen or working in a boring office. As a result, I didn't feel like listing them.</p>
+            </div>
+            <div>
+                <h2>Lead Instructor - iD Tech</h2>
+                <p><strong>Atlanta, Georgia 2019</strong></p>
+                <p>Most of the job involved teaching various classes on Game Development to Middleschool through Highschool aged students. The classes I taught ranged from VR Game Development using Unity to Mobile Game Development using GameMaker Studio 2.</p>
+                <p>On top of teaching, many of my functions involved debugging students' code, fixing hardware issues, solving dependency issues, etc. As a result, I became much better at adapting to situations on the fly.</p>
+                <p>This job had a lot of different responsibilities as well. Several administrative and customer service responsibilities, such as managing medical paperwork, assiting families, check-in/check-out, etc.</p>
+            </div>
+            <div>
+                <h2>Co-Creator - Vicimus</h2>
+                <p><strong>Indianapolis, Indiana 2017 - 2019</strong></p>
+                <p>This was a Game Development company that a friend and I created. We both had a passion for Game Development, so we worked together to make a few different games. Most of the games we made were for GameJams that we would then flesh out later.</p>
+                <p>My main role on the team was the Lead Artist, so I was responsible for 2D art, character designs, and animation. However, I also contributed to everyother aspect of the games as well.</p>
+                <p>I left the team due to being too busy with work to continue. However, around the time I was leaving our entire team was also trying to head in a direction that I was unsatisfied with, which is why I haven't returned to the team. That being said I am still good friends with everyone on the team.</p>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <p><strong>Email:</strong> evanwitous@gmail.com</p>
+                <p><strong>Phone Numer:</strong> (574) 485-9154</p>
+                <p><a href="https://www.linkedin.com/in/evan-witous-764246139/">LinkedIn</a></p>
+            </div>
+        </main>
+        <footer>
+            <p>Created by Evan Witous in 2019</p>
+        </footer>
+	</body>
+</html>

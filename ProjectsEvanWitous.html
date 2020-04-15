@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+   		<meta charset="utf-8">
+        <title>Projects - Evan Witous</title>
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="evanwitous.css">
+        <script>
+            function menuToggle() {
+
+                var menu = document.getElementById("nav");
+
+                if(menu.className === "") {
+
+                    menu.className = "opened";
+
+                } else {
+
+                    menu.className = "";
+                }
+
+            }
+        </script>
+	</head>
+	<body>
+        <header>
+            <button type="button" id="settings" onclick="menuToggle()">&#9776;</button>
+            <h1>Projects</h1>
+        </header>
+        <nav id="nav" class="">
+            <button type="button" id="home" onclick="window.location.href = 'HomeEvanWitous.html';">Home</button>
+            <br>
+            <button type="button" id="projects" onclick="window.location.href = 'ProjectsEvanWitous.html';">Projects</button>
+            <br>
+            <button type="button" id="about" onclick="window.location.href = 'ResumeEvanWitous.html';">Resume</button>
+        </nav>
+        <main>
+            <div>
+                <h2>Preface</h2>
+                <p>This page consists of school-based projects that I consider interesting enough to talk about. I've done many projects by this point, and most of them I can't remember because they weren't significant to my life.</p>
+            </div>
+            <div>
+                <h2>Capstone Project</h2>
+                <img src="Capstone.png" alt="Capstone">
+                <p>My Capstone project was called "PDF In-Broswer Rendering." For this project my team and I had to create a new way of rendering PDFs in a web browser quicker and lighter than the default way of doing so, which was through PDF.js. In the end, we decided to use API calls to load in new pages as you scrolled, so that you wouldn't have to wait for every page to load before viewing the frist few pages.</p>
+                <p>During this project, I was responsible for the frontend design, the hidden text-layer (which was used to allow text selection), page rendering, redactions, and a few other small things.</p>
+                <p>For the project we used ASP .NET, C#, JavaScript, and PDFiumSharp.</p>
+            </div>
+            <div>
+                <h2>Kung Pow Furious</h2>
+                <img src="kpf2.png" alt="Kung Pow Furious Running">
+                <p>This was a semester long project that I made independently for a class. It's a side-scroller beat'em up where you play as a super hero duck. Your character can double jump and preform attack combos all in hand-drawn animation. Throughout This project I also utilized custom AI for projectile-firing enemies, and utilized shaders for interesting visual effects.</p>
+                <img src="kpf4.png" alt="Kung Pow Furious Fighting">
+                <p>Since I had been doing Game Development for about 4-5 years in my freetime by this point, I asked the professor for one of my classes if I could spend my semester making this game instead of relearning the basics of Game Development. After we created a proposal with explicit requirements, I was released to make this game under the rule that I had to do 100% of the work in the game, including the art. It was a wonderful experience that allowed me to learn/develope a multitude of skills.</p>
+                <img src="kpf3.png" alt="Kung Pow Furious Menu">
+                <p>For the project I used GameMaker Studio 2, GML, and OpenGL.</p>
+                
+            </div>
+            <div>
+                <h2>Hand Of Grace</h2>
+                <img src="handofgrace.jpg" alt="Student Working With Client">
+                <p>This was a project I did while on my FRIST Robotics Competition team in highschool. It involved designing and manufacturing a prosthetic arm for an elementary-schooler in our area. For my role, I was the Lead for our team's End Effector group. As such, I was designing fingers for this arm that would allow the elementary-schooler to grab things.</p>
+                <p><a href="https://www.phmschools.org/hand-grace-penn-technology-students-built-madison-elementary-third-grader-new-arm">Read More Here</a></p>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <p><strong>Email:</strong> evanwitous@gmail.com</p>
+                <p><strong>Phone Numer:</strong> (574) 485-9154</p>
+                <p><a href="https://www.linkedin.com/in/evan-witous-764246139/">LinkedIn</a></p>
+            </div>
+        </main>
+        <footer>
+            <p>Created by Evan Witous in 2019</p>
+        </footer>
+	</body>
+</html>
